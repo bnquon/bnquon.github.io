@@ -1,0 +1,4 @@
+1. Basic plan is to create basic text with picture in the home page
+2. Taskbar
+3. Links to other projects
+4. Go from there
