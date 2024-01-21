@@ -1,5 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
+    min-height: 98vh;
 }
 
 .taskbar {
@@ -92,4 +93,18 @@ body {
 
 .introContainer img {
     border-radius: 50%;
+}
+
+.footerContainer {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+
+    border-top: 1px solid lightgrey;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+
+    position: sticky;
+    top: 100%;
 }
