@@ -1,0 +1,16 @@
+.taskbar {
+    list-style-type: none;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.taskbar li {
+    display: inline;    
+}
+
+.taskbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-right: 10px;
+}
