@@ -6,7 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Make taskbar block everything behind it ? */
 .taskbar {
     list-style-type: none;
     width: 100vw;
@@ -16,6 +15,9 @@ body {
     height: 7vh;
     position: fixed;
     
+    /* Make taskbar overlap everything */
+    z-index: 1;
+
     background-color: lightgray;
 }
 
