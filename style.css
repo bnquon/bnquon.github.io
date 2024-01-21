@@ -150,8 +150,26 @@ body {
     
     display: grid;
     grid-column-gap: 50px;
-    grid-template-columns: repeat(2, auto);
+    grid-row-gap: 50px ;
+    grid-template-columns: repeat(2, 1fr);
     justify-content:space-evenly;
 
-
 }
+
+.project-container .word-game {
+    position: relative;
+    border: 2px solid red;
+}
+
+.example-container .word-game .picture-left {
+    position: absolute;
+    left: 50%;
+}
+
+.example-container .word-game .description-left {
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    right: 55%;
+}
+
