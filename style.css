@@ -156,26 +156,25 @@ body {
 
 }
 
-.project-container .word-game {
+.project-container .word-game,
+.project-container .casino-sim,
+.project-container .hackathon {
     position: relative;
     border: 2px solid red;
 }
 
-.example-container .word-game .picture-left {
+.word-game .picture-left,
+.hackathon .picture-left {
     position: relative;
     left: 50%;
 }
 
-.example-container .word-game .description-left {
+.word-game .description-left,
+.hackathon .description-left {
     position: absolute;
     left: 10%;
     top: 35%;
     right: 55%;
-}
-
-.project-container .casino-sim {
-    position: relative;
-    border: 2px solid red;
 }
 
 .casino-sim .picture-right {
@@ -183,7 +182,7 @@ body {
     right: 50%;
 }
 
-.example-container .casino-sim .description-right {
+.casino-sim .description-right {
     position: absolute;
     left: 55%; 
     top: 35%;
