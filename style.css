@@ -1,27 +1,32 @@
 body {
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
 }
 
+/* Make taskbar block everything behind it ? */
 .taskbar {
     list-style-type: none;
-    margin: 20px 35px;
-    height: 5vh;
-    position: relative;
-
-    /* border: 1px solid orange; */
+    width: 100vw;
+    max-width: 100%;
+    padding-top: 0;
+    margin: 0px 0px;
+    height: 7vh;
+    position: fixed;
+    
+    background-color: lightgray;
 }
 
 .taskbar .links {
     margin-left: auto;
     width: 20vw;
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: fixed;
+    top: 2vh;
+    left: 77vw;
     text-align: right;
-
-    /* border: 1px solid orange; */
+    border: 1px solid orange;
 }
 
 .taskbar li {
@@ -38,8 +43,8 @@ body {
 .taskbar .name {
     width: 20vw;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 2vh;
+    left: 5vw;
     text-align: left;
 
     /* border: 1px solid orange; */
