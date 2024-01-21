@@ -22,6 +22,7 @@
     width: 50vw;
     height: 50vh;   
     margin-left: 25vw;
+    align-items: center;
 
 
     border: 1px solid;
@@ -30,7 +31,7 @@
 
 .introContainer .bioContainer {
     position: relative;
-    
+    margin-left: 25px;
     border: 1px solid;
     border-color: blue;
 }
