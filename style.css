@@ -18,7 +18,18 @@
 .introContainer {
     position: relative;
     top: 20vh;
-    
+    width: 50vw;
+    height: 50vh;   
+    margin-left: 25vw;
     border: 1px solid;
     border-color: red;
+}
+
+.introContainer .bio {
+    position: absolute;
+    right: 0;
+}
+
+.introContainer .picture {
+    object-position: left;
 }
