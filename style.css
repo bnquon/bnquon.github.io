@@ -104,21 +104,6 @@ body {
     border-radius: 50%;
 }
 
-/* .footerContainer {
-    display: flex;
-    /* flex-direction: row; */
-    /* justify-content: space-between;
-
-    border-top: 1px solid lightgrey;
-    border-right: none;
-    border-left: none;
-    border-bottom: none;
-
-    position: sticky;
-    top: 100%;
-    margin: 10px 25px;
-}  */
-
 .project-container {
     position: absolute;
     margin: 0;
@@ -191,3 +176,16 @@ body {
     top: 35%;
     right: 10%;   
 }
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-top: 1px solid lightgrey;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+}
+
+/* NEED TO MAKE FOOTER AT BOTTOM OF PAGE */
