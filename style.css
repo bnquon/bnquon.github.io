@@ -162,7 +162,7 @@ body {
 }
 
 .example-container .word-game .picture-left {
-    position: absolute;
+    position: relative;
     left: 50%;
 }
 
@@ -173,3 +173,20 @@ body {
     right: 55%;
 }
 
+.project-container .casino-sim {
+    position: relative;
+    border: 2px solid red;
+}
+
+.casino-sim .picture-right {
+    position: absolute;
+    right: 50%;
+}
+
+.example-container .casino-sim .description-right {
+    position: absolute;
+    left: 55%; 
+    top: 35%;
+    right: 10%;
+    
+}
