@@ -33,3 +33,7 @@
 .introContainer .picture {
     object-position: left;
 }
+
+.introContainer img {
+    border-radius: 50%;
+}
