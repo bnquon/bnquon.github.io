@@ -16,18 +16,23 @@
 }
 
 .introContainer {
+    display: flex;
     position: relative;
     top: 20vh;
     width: 50vw;
     height: 50vh;   
     margin-left: 25vw;
+
+
     border: 1px solid;
     border-color: red;
 }
 
-.introContainer .bio {
-    position: absolute;
-    right: 0;
+.introContainer .bioContainer {
+    position: relative;
+    
+    border: 1px solid;
+    border-color: blue;
 }
 
 .introContainer .picture {
