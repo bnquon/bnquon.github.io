@@ -52,7 +52,7 @@ body {
     font-weight: bold;
 }
 
-.introContainer {
+.intro-container {
     display: flex;
     position: relative;
     top: 15vh;
@@ -63,7 +63,7 @@ body {
     /* border: 1px solid orange; */
 }
 
-.introContainer .bioContainer {
+.intro-container .bio-container {
     position: relative;
     margin-left: 25px;
     margin-top: 0;
@@ -71,35 +71,35 @@ body {
     /* border: 1px solid orange; */
 }
 
-.introContainer h1 {
+.intro-container h1 {
     font-size: 70px;
     margin-top: 60px;
     margin-bottom: 30px;
 }
 
-.introContainer h3 {
+.intro-container h3 {
     font-size: 25px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.introContainer p {
+.intro-container p {
     margin-top: 10px;
 }
 
-.introContainer .picture {
+.intro-container .picture {
     align-self: center;
     object-position: left;
 }
 
-.introContainer img {
+.intro-container img {
     border-radius: 50%;
 }
 
-.footerContainer {
+/* .footerContainer {
     display: flex;
     /* flex-direction: row; */
-    justify-content: space-between;
+    /* justify-content: space-between;
 
     border-top: 1px solid lightgrey;
     border-right: none;
@@ -109,4 +109,4 @@ body {
     position: sticky;
     top: 100%;
     margin: 10px 25px;
-}
+}  */
