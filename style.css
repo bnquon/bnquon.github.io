@@ -26,7 +26,7 @@ body {
     width: 20vw;
     position: fixed;
     top: 2vh;
-    left: 77vw;
+    right: 5vw;
     text-align: right;
 
 }
@@ -39,7 +39,7 @@ body {
     text-decoration: none;
     font-size: 20px;
     color: black;
-    margin-right: 10px;
+    margin-right: 2px;
 }
 
 .taskbar .name {
@@ -129,6 +129,10 @@ body {
     left: 0;
 
     border: 2px solid orange;
+}
+
+#project-section {
+    padding-top: 40px;
 }
 
 .project-container .project-header {
