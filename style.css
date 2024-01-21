@@ -158,7 +158,8 @@ body {
 
 .project-container .word-game,
 .project-container .casino-sim,
-.project-container .hackathon {
+.project-container .hackathon,
+.project-container .hangman {
     position: relative;
     border: 2px solid red;
 }
@@ -177,12 +178,14 @@ body {
     right: 55%;
 }
 
-.casino-sim .picture-right {
-    position: absolute;
-    right: 50%;
+.casino-sim .picture-right, 
+.hangman .picture-right {
+    position: relative;
+    left: 4%;
 }
 
-.casino-sim .description-right {
+.casino-sim .description-right,
+.hangman .description-right {
     position: absolute;
     left: 55%; 
     top: 35%;
