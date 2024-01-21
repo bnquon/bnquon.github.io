@@ -1,6 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
-    min-height: 95vh;
+    min-height: 100vh;
 }
 
 .taskbar {
@@ -110,3 +110,9 @@ body {
     top: 100%;
     margin: 10px 25px;
 }  */
+
+.project-container {
+    position: absolute;
+    top: 100vh;
+    border: 1px solid orange;
+}
