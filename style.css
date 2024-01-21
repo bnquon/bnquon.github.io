@@ -4,8 +4,22 @@ body {
 
 .taskbar {
     list-style-type: none;
+    margin: 20px 35px;
+    height: 5vh;
+    position: relative;
+
+    /* border: 1px solid orange; */
+}
+
+.taskbar .links {
+    margin-left: auto;
+    width: 20vw;
+    position: absolute;
+    top: 0;
+    right: 0;
     text-align: right;
-    margin-right: 35px;
+
+    /* border: 1px solid orange; */
 }
 
 .taskbar li {
@@ -19,24 +33,40 @@ body {
     margin-right: 10px;
 }
 
+.taskbar .name {
+    width: 20vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+
+    /* border: 1px solid orange; */
+}
+
+.taskbar .name a{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
 .introContainer {
     display: flex;
     position: relative;
-    top: 20vh;
+    top: 15vh;
     width: 45vw;
     height: 50vh;   
     margin-left: 25vw;
 
-    border: 1px solid;
-    border-color: red;
+    /* border: 1px solid orange; */
 }
 
 .introContainer .bioContainer {
     position: relative;
     margin-left: 25px;
     margin-top: 0;
-    border: 1px solid;
-    border-color: blue;
+
+    /* border: 1px solid orange; */
 }
 
 .introContainer h1 {
