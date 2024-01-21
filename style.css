@@ -19,7 +19,7 @@
     display: flex;
     position: relative;
     top: 20vh;
-    width: 50vw;
+    width: 45vw;
     height: 50vh;   
     margin-left: 25vw;
 
@@ -37,13 +37,18 @@
 
 .introContainer h1 {
     font-size: 70px;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 .introContainer h3 {
     font-size: 25px;
     margin-top: 0;
+    margin-bottom: 0;
+}
+
+.introContainer p {
+    margin-top: 10px;
 }
 
 .introContainer .picture {
