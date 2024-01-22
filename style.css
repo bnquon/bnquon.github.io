@@ -186,6 +186,10 @@ body {
     border: 1px solid black;
 }
 
+.casino-sim .casino-picture {
+    background-color: black;
+}
+
 .casino-sim .casino-info,
 .hangman .hangman-info {
     align-self: center;
