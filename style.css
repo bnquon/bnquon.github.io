@@ -220,7 +220,7 @@ body {
     bottom: 0;  
     height: 10vh;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);  
+    grid-template-columns: repeat(3, 1fr);  
     
     border-top: 1px solid lightgrey;
     border-right: none;
@@ -229,7 +229,7 @@ body {
 
 }
 
-.phone-container, .email-container, .socials-container, .tbd-container {
+.email-container, .socials-container, .tbd-container {
     display: block;
     /* border: 2px solid red; */
     margin-left: 60px;
