@@ -151,39 +151,39 @@ body {
 }
 
 .project-container .word-game,
+.project-container .hackathon {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
 .project-container .casino-sim,
-.project-container .hackathon,
 .project-container .hangman {
-    position: relative;
-    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+
 }
 
 .word-game .word-picture,
 .hackathon .hackathon-picture {
-    position: relative;
     left: 50%;
 }
 
 .word-game .word-info,
 .hackathon .hackathon-info {
-    position: absolute;
-    left: 10%;
-    top: 35%;
-    right: 55%;
+    align-self: center;
+    margin: 0 25px;
 }
 
 .casino-sim .casino-picture, 
 .hangman .hangman-picture {
-    position: relative;
-    left: 4%;
+    right: 50%;
 }
 
 .casino-sim .casino-info,
 .hangman .hangman-info {
-    position: absolute;
-    left: 55%; 
-    top: 35%;
-    right: 10%;   
+    align-self: center;
+    margin: 0 25px;
 }
 
 .example-container img {
