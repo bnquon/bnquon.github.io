@@ -173,11 +173,6 @@ body {
     left: 50%;
 }
 
-.word-game .word-picture,
-.hangman .hangman-picture {
-    border: 1px solid black;
-}
-
 .word-game .word-info,
 .hackathon .hackathon-info {
     align-self: center;
@@ -187,15 +182,6 @@ body {
 .casino-sim .casino-picture, 
 .hangman .hangman-picture {
     right: 50%;
-}
-
-.casino-sim .casino-picture {
-    background-color: black;
-}
-
-.casino-sim .casino-picture:hover {
-    background-color: white;
-    transform: 1s;
 }
 
 .casino-sim .casino-info,
