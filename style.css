@@ -108,38 +108,42 @@ body {
 }
 
 .project-container {
-    margin-top: 35vh;
+    margin-top: 50vh;
     padding: 0;
     top: 100vh;
     width: 100vw;
     max-width:100%;
     left: 0;
-    
-    border: 2px solid orange;
+
+    /* border: 2px solid orange; */
 }
 
 #project-section {
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .project-container .project-header {
+    background-color: lightgray;
+    border: 2px solid lightgray;
     position: relative;
     font-size: 22px;
-    border: 1px solid black;
+
     text-align: center;
     padding: 0;
     margin-bottom: 0;
+
 }
 
 .project-container .example-container {
     position: relative;
-    border: 2px solid blue;
-    
+    background-color: white;
     display: grid;
     grid-column-gap: 50px;
     grid-row-gap: 50px ;
     grid-template-columns: repeat(2, 1fr);
     justify-content:space-evenly;
+    margin-top: 50px;
+    margin-bottom: 25px;
 
 }
 
@@ -148,7 +152,7 @@ body {
 .project-container .hackathon,
 .project-container .hangman {
     position: relative;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .word-game .picture-left,
