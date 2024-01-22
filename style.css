@@ -171,6 +171,10 @@ body {
 .word-game .word-picture,
 .hackathon .hackathon-picture {
     left: 50%;
+}
+
+.word-game .word-picture,
+.hangman .hangman-picture {
     border: 1px solid black;
 }
 
@@ -183,7 +187,6 @@ body {
 .casino-sim .casino-picture, 
 .hangman .hangman-picture {
     right: 50%;
-    border: 1px solid black;
 }
 
 .casino-sim .casino-picture {
