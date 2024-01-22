@@ -60,7 +60,6 @@ body {
 }
 
 .taskbar .name a{
-    cursor: default;
     font-size: 20px;
     color: black;
     margin-left: 10px;
