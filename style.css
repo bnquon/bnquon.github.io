@@ -216,12 +216,11 @@ body {
     text-align: center;
 }
 
-.email-container, .socials-container, .tbd-container {
+.email-container, .socials-container, .copyright-container {
     display: block;
     /* border: 2px solid red; */
     margin-left: 60px;
 }
 
 .socials-container .icons {
-    margin-right: 5px;
 }
