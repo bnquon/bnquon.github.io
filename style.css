@@ -160,8 +160,8 @@ body {
     /* border: 2px solid red; */
 }
 
-.word-game .picture-left,
-.hackathon .picture-left {
+.word-game .word-picture,
+.hackathon .hackathon-picture {
     position: relative;
     left: 50%;
 }
@@ -174,8 +174,8 @@ body {
     right: 55%;
 }
 
-.casino-sim .picture-right, 
-.hangman .picture-right {
+.casino-sim .casino-picture, 
+.hangman .hangman-picture {
     position: relative;
     left: 4%;
 }
