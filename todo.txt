@@ -1,2 +1,1 @@
-1. make jump link smooth
-2. make project pictures bigger on hover and link to github on click
+1. make project pictures bigger on hover and link to github on click
