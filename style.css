@@ -21,7 +21,7 @@ body {
     margin: 0px 0px;
     height: 7vh;
     position: fixed;
-    
+    display: flex;
     /* Make taskbar overlap everything */
     z-index: 1;
 
@@ -30,7 +30,6 @@ body {
 
 .taskbar .links {
     margin-left: auto;
-    width: 20vw;
     position: fixed;
     top: 2vh;
     right: 5vw;
