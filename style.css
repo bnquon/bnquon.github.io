@@ -193,6 +193,11 @@ body {
     background-color: black;
 }
 
+.casino-sim .casino-picture:hover {
+    background-color: white;
+    transform: 1s;
+}
+
 .casino-sim .casino-info,
 .hangman .hangman-info {
     align-self: center;
