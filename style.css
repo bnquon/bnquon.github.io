@@ -189,9 +189,7 @@ body {
 }
 
 .example-container img {
-    transition-duration: 0.5s; /* Set the overall transition duration */
-
-    /* Set the initial scale for the non-hovered state */
+    transition-duration: 0.5s; 
     transform: scale(1);
 }
 
