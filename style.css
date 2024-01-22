@@ -103,10 +103,14 @@ body {
 .intro-container .picture {
     align-self: center;
     object-position: left;
+    
 }
 
 .intro-container img {
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
+    object-fit: cover;
 }
 
 .project-container {
