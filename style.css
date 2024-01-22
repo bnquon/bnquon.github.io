@@ -235,3 +235,7 @@ body {
     /* border: 2px solid red; */
     margin-left: 60px;
 }
+
+.socials-container .icons {
+    margin-right: 5px;
+}
