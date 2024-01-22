@@ -227,6 +227,7 @@ body {
     border-left: none;
     border-bottom: none;
 
+    text-align: center;
 }
 
 .email-container, .socials-container, .tbd-container {
