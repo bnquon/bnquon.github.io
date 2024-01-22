@@ -171,6 +171,7 @@ body {
 .word-game .word-picture,
 .hackathon .hackathon-picture {
     left: 50%;
+    border: 1px solid black;
 }
 
 .word-game .word-info,
