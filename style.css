@@ -6,6 +6,7 @@ body {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .taskbar {
@@ -114,7 +115,7 @@ body {
     width: 100vw;
     max-width:100%;
     left: 0;
-
+    
     border: 2px solid orange;
 }
 
@@ -179,7 +180,9 @@ body {
     right: 10%;   
 }
 
-.footerContainer {
+.footer-container {
+    background-color: lightgray;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -189,7 +192,8 @@ body {
     border-left: none;
     border-bottom: none;
 
-    margin-top: auto;
+    bottom: 0;
+
 }
 
 /* NEED TO MAKE FOOTER AT BOTTOM OF PAGE */
