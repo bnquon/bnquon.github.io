@@ -1,1 +1,3 @@
-1. make project pictures bigger on hover and link to github on click
+1. Add descriptions to everything
+2. Make the project header less plain ?
+3. maybe add some gif or something to get rid of home blank space
