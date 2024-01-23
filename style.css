@@ -177,10 +177,8 @@ body {
 
 .word-game .word-picture,
 .hackathon .hackathon-picture {
-    border: 1px solid blue;
-    width: 550px;  
-    height: 300px;
-    left: 50%;
+    width: 550px;
+    height: 350px;
 }
 
 .word-game .word-info,
@@ -193,9 +191,11 @@ body {
 
 .casino-sim .casino-picture, 
 .hangman .hangman-picture {
-    width: 550px;  
+    border: 1px solid blue;
+    /* object-fit: cover; */
+    /* width: 550px;  
     height: 300px;
-    right: 50%;
+    right: 50%; */
 }
 
 .casino-sim .casino-info,
@@ -215,7 +215,7 @@ body {
     transform: scale(1.1);
 }
 
-.big-container {
+/* .big-container {
     position: relative;
     border: 1px solid black;
     max-width: 100vw;
@@ -239,7 +239,7 @@ body {
     width: 250px;
     height: 250px; 
     /* width and height can be anything, as long as they're equal */
-  }
+/* } */ 
 
 .container {
     border-top: 1px solid lightgray;
