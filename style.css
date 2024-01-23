@@ -215,9 +215,19 @@ body {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     width: 50%;
-    justify-content: center;
-    align-items: center;
     border: 1px solid black;
+}
+
+.upcoming-container .left-grid .left-topface {
+    text-align: center;
+}
+
+.upcoming-container .left-grid .left-topcontent {
+    display: none;
+}
+
+.upcoming-container .left-grid .left-topface:hover + .left-topcontent {
+    display: block;
 }
 
 .footer-container {
