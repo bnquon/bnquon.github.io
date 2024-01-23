@@ -65,7 +65,6 @@ body {
 }
 
 .intro-container {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: row;
     position: relative;
@@ -74,10 +73,11 @@ body {
     max-width: 50vw;
     height: 50vh;   
     margin-left: 25vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-container .bio-container {
-    /* border: 1px solid red; */
     position: relative;
     width: 40%;
 }
@@ -105,7 +105,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid red; */
+    margin-right: -25px;
 }
 
 .intro-container img {
