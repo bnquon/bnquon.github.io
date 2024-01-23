@@ -201,6 +201,12 @@ body {
     transform: scale(1.1);
 }
 
+.upcoming-container {
+    border: 1px solid red;
+    width: 50vw;
+    height: 40vh;
+}
+
 .footer-container {
     position: relative;
     display: flex;
