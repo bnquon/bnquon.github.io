@@ -74,16 +74,12 @@ body {
     max-width: 50vw;
     height: 50vh;   
     margin-left: 25vw;
-
-    /* border: 1px solid orange; */
 }
 
 .intro-container .bio-container {
     /* border: 1px solid red; */
     position: relative;
     width: 40%;
-
-    /* border: 1px solid orange; */
 }
 
 .intro-container h1 {
@@ -106,15 +102,15 @@ body {
     position: relative;
     height: 100%;
     width: 60%;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
 }
 
 .intro-container img {
     width: 80%;
-    height: 110%;
+    height: 90%;
     border-radius: 50%;
 }
 
@@ -126,8 +122,6 @@ body {
     width: 100vw;
     max-width: 100%;
     left: 0;
-
-    /* border: 2px solid orange; */
 }
 
 #project-section {
