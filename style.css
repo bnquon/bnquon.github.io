@@ -226,10 +226,6 @@ body {
     display: none;
 }
 
-.upcoming-container .left-grid .left-topface:hover + .left-topcontent {
-    display: block;
-}
-
 .footer-container {
     position: relative;
     display: flex;
