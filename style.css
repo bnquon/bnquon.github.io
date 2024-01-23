@@ -227,13 +227,41 @@ body {
     /* width and height can be anything, as long as they're equal */
   }
 
+.container {
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
 
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: relative;
+    max-width: 80vw;
+    left: 10vw;
+}
 
+.card-container .card {
+    width: 17vw;
+    height: auto;
+    margin: 25px;
+}
 
+.card-container .face {
+    height: auto;
+    text-align: center;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+}
 
+.card-container .content {
+    display: none;
+}
 
+.card:hover .content {
+    display: block;
+}
 
-  
 .footer-container {
     position: relative;
     display: flex;
