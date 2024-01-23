@@ -107,8 +107,8 @@ body {
 }
 
 .intro-container img {
-    width: 500px;
-    height: 500px;
+    width: 475px;
+    height: 475px;
     border-radius: 50%;
     object-fit: cover;
 }
