@@ -211,8 +211,7 @@ body {
     flex-direction: row;
 }
 
-.upcoming-container .left-grid,
-.upcoming-container .right-grid {
+.upcoming-container .left-grid {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     width: 50%;
