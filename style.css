@@ -65,7 +65,9 @@ body {
 }
 
 .intro-container {
+    border: 1px solid black;
     display: flex;
+    flex-direction: row;
     position: relative;
     top: 25vh;
     min-width: 30vw;
@@ -77,9 +79,9 @@ body {
 }
 
 .intro-container .bio-container {
+    border: 1px solid red;
     position: relative;
-    margin-left: 25px;
-    margin-top: 0;
+    width: 40%;
 
     /* border: 1px solid orange; */
 }
@@ -101,16 +103,19 @@ body {
 }
 
 .intro-container .picture {
-    align-self: center;
-    object-position: left;
-    
+    position: relative;
+    height: 100%;
+    width: 60%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro-container img {
-    width: 475px;
-    height: 475px;
+    width: 80%;
+    height: 100%;
     border-radius: 50%;
-    object-fit: cover;
 }
 
 .project-container {
