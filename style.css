@@ -214,11 +214,11 @@ body {
 .upcoming-container .left-grid,
 .upcoming-container .right-grid {
     display: grid;
-    border: 1px solid black;
     grid-template-rows: repeat(2, 1fr);
     width: 50%;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 
 .footer-container {
