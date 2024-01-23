@@ -176,7 +176,9 @@ body {
 }
 
 .word-game .word-picture,
-.hackathon .hackathon-picture {
+.hackathon .hackathon-picture,
+.casino-sim .casino-picture, 
+.hangman .hangman-picture {
     width: 550px;
     height: 350px;
 }
@@ -187,15 +189,6 @@ body {
     max-width: 40%;
     align-self: center;
     margin: 0 30px;
-}
-
-.casino-sim .casino-picture, 
-.hangman .hangman-picture {
-    border: 1px solid blue;
-    /* object-fit: cover; */
-    /* width: 550px;  
-    height: 300px;
-    right: 50%; */
 }
 
 .casino-sim .casino-info,
