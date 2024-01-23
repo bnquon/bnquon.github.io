@@ -188,7 +188,7 @@ body {
 .casino-sim .casino-info,
 .hangman .hangman-info {
     align-self: center;
-    margin: 0 25px;
+    margin: 0 20px 0 38px;
 }
 
 .example-container img {
@@ -228,7 +228,7 @@ body {
   }
 
 .container {
-    border: 1px solid red;
+    border-top: 1px solid lightgray;
     text-align: center;
 }
 
@@ -239,11 +239,12 @@ body {
     position: relative;
     max-width: 80vw;
     left: 10vw;
+    height: 15vh;
 }
 
 .card-container .card {
     width: 17vw;
-    height: auto;
+    height: 20vh;
     margin: 25px;
 }
 
