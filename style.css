@@ -204,34 +204,24 @@ body {
 .big-container {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 16px; /* Adjust the gap between items as needed */
-    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 50px;
+    justify-content: space-between;
     border: 1px solid black;
-    max-width: 50vw;
-    left: 24.5vw;
+    max-width: 75vw;
+    left: 12.5vw;
   }
   
-
-.card-container {
-    display: inline-flex;
-    flex-direction: column;
+.circle {
     position: relative;
-    border: 1px solid green;
-    min-width:20vw;
-    min-height: 0;
-}
-
-.card-container .face {
-    background-color: lightgray;
-    text-align: center;
-}
-
-.card-container .content {
-    margin-bottom: 0;
-    object-fit: cover;
-    background-color: white;
-}
+    left: 50vw;
+    background-color: purple;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    /* width and height can be anything, as long as they're equal */
+  }
 
 .footer-container {
     position: relative;
