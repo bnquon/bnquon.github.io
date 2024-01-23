@@ -158,8 +158,8 @@ body {
 }
 
 .example-container img {
-    width: 550px;  
-    height: 300px;
+    max-width: 100%;
+    height: 100%;
 }
 
 .project-container .word-game,
@@ -177,17 +177,24 @@ body {
 
 .word-game .word-picture,
 .hackathon .hackathon-picture {
+    border: 1px solid blue;
+    width: 550px;  
+    height: 300px;
     left: 50%;
 }
 
 .word-game .word-info,
 .hackathon .hackathon-info {
+    border: 1px solid green;
+    max-width: 40%;
     align-self: center;
     margin: 0 30px;
 }
 
 .casino-sim .casino-picture, 
 .hangman .hangman-picture {
+    width: 550px;  
+    height: 300px;
     right: 50%;
 }
 
@@ -195,6 +202,7 @@ body {
 .hangman .hangman-info {
     align-self: center;
     margin: 0 20px 0 38px;
+    max-width: 40%;
 }
 
 .example-container img {
