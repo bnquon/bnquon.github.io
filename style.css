@@ -164,6 +164,7 @@ body {
 
 .project-container .word-game,
 .project-container .hackathon {
+    border: 1px solid red;
     display: flex;
     flex-direction: row-reverse;
 }
