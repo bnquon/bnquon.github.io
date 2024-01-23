@@ -151,21 +151,23 @@ body {
     justify-content:space-evenly;
     margin-top: 50px;
     margin-bottom: 25px;
+}
 
+.example-container img {
+    width: 550px;  
+    height: 300px;
 }
 
 .project-container .word-game,
 .project-container .hackathon {
     display: flex;
     flex-direction: row-reverse;
-
 }
 
 .project-container .casino-sim,
 .project-container .hangman {
     display: flex;
     flex-direction: row;
-
 }
 
 .word-game .word-picture,
