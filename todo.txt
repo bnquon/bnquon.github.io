@@ -1,4 +1,4 @@
 1. Add descriptions to everything
-2. Make the project header less plain ?
-3. maybe add some gif or something to get rid of home blank space
-4. Make it scaling appropriate to mobile devices
+2. Make it scaling appropriate to mobile devices
+3. Hover effects for the upcoming projects
+4. Spice up plain home page somehow
