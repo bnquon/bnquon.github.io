@@ -152,7 +152,7 @@ body {
     display: grid;
     grid-column-gap: 50px;
     grid-row-gap: 50px ;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50vw);
     justify-content:space-evenly;
     margin-top: 50px;
 }
@@ -165,6 +165,7 @@ body {
 .project-container .word-game,
 .project-container .hackathon {
     display: flex;
+    position: relative;
     flex-direction: row-reverse;
 }
 
@@ -178,7 +179,7 @@ body {
 .hackathon .hackathon-picture,
 .casino-sim .casino-picture, 
 .hangman .hangman-picture {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 550px;
     height: 350px;
 }
