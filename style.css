@@ -205,25 +205,30 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    border: 1px solid red;
-    border-radius: 25px;
+    border: 1px solid lightgray;
     width: 25vw;
     left: 12.5vw;
+    min-height: 0;
 }
 
 .card-container .face {
-    text-align: center;
     background-color: lightgray;
-    border-radius: 25px;
+    text-align: center;
 }
 
 .card-container .content {
-    display: block;
-    background-color: lightcoral;
+    display: none;
+    margin-bottom: 0;
+    object-fit: cover;
+    background-color: white;
+}
+
+.card-container:hover {
+    background-color: white;
 }
 
 .card-container:hover .content {
-    display: none;
+    display: block;
 }
 
 .footer-container {
