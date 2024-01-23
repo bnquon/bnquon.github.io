@@ -201,10 +201,6 @@ body {
     transform: scale(1.1);
 }
 
-.grid-container {
-    display: grid;
-}
-
 .footer-container {
     position: relative;
     display: flex;
