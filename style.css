@@ -201,13 +201,24 @@ body {
     transform: scale(1.1);
 }
 
+.big-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px; /* Adjust the gap between items as needed */
+    justify-content: space-evenly;
+    border: 1px solid black;
+    max-width: 50vw;
+    left: 24.5vw;
+  }
+  
+
 .card-container {
     display: inline-flex;
     flex-direction: column;
     position: relative;
-    border: 1px solid lightgray;
-    left: 10vw;
-    width: 20vw;
+    border: 1px solid green;
+    min-width:20vw;
     min-height: 0;
 }
 
@@ -217,18 +228,9 @@ body {
 }
 
 .card-container .content {
-    display: none;
     margin-bottom: 0;
     object-fit: cover;
     background-color: white;
-}
-
-.card-container:hover {
-    background-color: white;
-}
-
-.card-container:hover .content {
-    display: block;
 }
 
 .footer-container {
