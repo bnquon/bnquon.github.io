@@ -1,5 +1,5 @@
 function showGridContent() {
-    var x = document.getElementById("upcoming-info");
+    var x = document.getElementById("content");
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {
