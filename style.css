@@ -320,7 +320,7 @@ body {
     /* border: 1px solid red; */
     position: absolute;
     display: flex;
-    left: 90vw;
+    left: 90%;
     bottom: 9vh;
     width: 160px;
     justify-content: right;

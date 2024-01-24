@@ -1,4 +1,2 @@
-1. fix gengar on smaller window
-2. Scaling for smaller devices *havent tested
-3. Spice up plain home page somehow
-4. IDK
+1. Put gengar in footer
+2. IDK
