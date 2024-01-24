@@ -330,12 +330,26 @@ body {
     animation-fill-mode: forwards;
 }
 
-.gif {
-    /* border: 1px solid red; */
-    position: absolute;
+.footer-container {
+    position: relative;
     display: flex;
-    left: 90%;
-    bottom: 9vh;
+    background-color: lightgray;
+    bottom: 0vh;  
+    min-height: 5vh;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.email-container, .socials-container, .copyright-container {
+    display: inline-block;
+}
+
+.gif {
+    position: relative;
+    display: flex;
     width: 160px;
     justify-content: right;
 }
@@ -356,19 +370,3 @@ body {
     visibility: visible;
 }
 
-.footer-container {
-    position: relative;
-    display: flex;
-    background-color: lightgray;
-    bottom: 0vh;  
-    min-height: 5vh;
-    width: 100%;
-    margin-top: 150px;
-    text-align: center;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.email-container, .socials-container, .copyright-container {
-    display: inline-block;
-}
