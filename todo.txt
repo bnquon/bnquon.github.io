@@ -1,3 +1,4 @@
-1. Scaling for smaller devices *havent tested
-2. Spice up plain home page somehow
-3. IDK
+1. fix gengar on smaller window
+2. Scaling for smaller devices *havent tested
+3. Spice up plain home page somehow
+4. IDK
