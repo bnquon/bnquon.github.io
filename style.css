@@ -231,8 +231,24 @@ body {
 /* } */ 
 
 .container {
-    border-top: 1px solid lightgray;
+    border: 1px solid lightgray;
     text-align: center;
+}
+
+.container .wip {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px solid red;
+    margin-bottom: -40px;
+}
+
+.container .tooltip {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    border: 1px solid red;
 }
 
 .card-container {
@@ -262,8 +278,9 @@ body {
     display: hidden;
 } */
 
-.card:hover .content {
+.card .face:hover + .content {
     display: block;
+    border: 1px solid lightgray;
 }
 
 .gif {
@@ -280,7 +297,7 @@ body {
     bottom: 0;  
     min-height: 10vh;
     width: 100%;
-    margin-top: 200px;   
+    margin-top: 150px;   
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
