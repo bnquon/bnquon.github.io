@@ -290,11 +290,29 @@ body {
 }
 
 .gif {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: absolute;
     display: flex;
-    left: 94vw;
+    left: 90vw;
     bottom: 9vh;
+    width: 160px;
+    justify-content: right;
+}
+
+.gif .speech {
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+}
+
+.gif h5 {
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+}
+
+.gif:hover .speech{
+    visibility: visible;
 }
 
 .footer-container {
