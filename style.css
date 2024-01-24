@@ -117,12 +117,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: -25px;
 }
 
 .intro-container img {
-    max-width: 80%;
-    max-height: 90%;
+    min-width: 80%;
+    height: 90%;
     border-radius: 50%;
 }
 
