@@ -290,9 +290,11 @@ body {
 }
 
 .gif {
+    border: 1px solid red;
     position: absolute;
-    left: 92vw;
-    bottom: 80px;
+    display: flex;
+    left: 94vw;
+    bottom: 9vh;
 }
 
 .footer-container {
