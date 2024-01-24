@@ -126,13 +126,13 @@ body {
 }
 
 .project-container {
+    position: relative;
     margin-top: 50vh;
     margin-bottom: 50px;
     padding: 0;
-    top: 100vh;
     width: 100vw;
     max-width: 100%;
-    left: 0;
+    /* left: 5vw; */
 }
 
 #project-section {
@@ -166,10 +166,9 @@ body {
 .project-container .example-container {
     border: 1px solid red;
     position: relative;
-    background-color: white;
     display: grid;
     row-gap: 20px ;
-    grid-template-columns: repeat(2, 40vw);
+    grid-template-columns: repeat(2, 40%);
     justify-content: space-evenly;
     margin-top: 15px;
 }
