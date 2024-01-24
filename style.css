@@ -164,13 +164,13 @@ body {
 }
 
 .project-container .example-container {
-    border: 1px solid red;
     position: relative;
     display: grid;
-    row-gap: 20px ;
     grid-template-columns: repeat(2, 40%);
-    justify-content: space-evenly;
     margin-top: 15px;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 25px;
 }
 
 .example-container img {
