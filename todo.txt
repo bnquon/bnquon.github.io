@@ -1,2 +1,1 @@
-1. Put gengar in footer
-2. IDK
+1. Learn js to make headers appear when in viewport -> intersectionobserver
