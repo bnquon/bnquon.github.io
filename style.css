@@ -262,7 +262,6 @@ body {
 .card-container {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
     width: 70vw;
     max-width: 100%;
     height: 50vh;
@@ -271,7 +270,6 @@ body {
 }
 
 #card1, #card2, #card3, #card4 {
-    border: 1px solid red;
     width: 100%;
     height: 100%;
 }
