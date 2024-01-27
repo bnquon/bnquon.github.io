@@ -159,6 +159,17 @@ body {
     position: relative;
 }
 
+.a {
+    transform: translateX(100vw);
+    opacity: 0;
+    transition: 400ms;
+}
+
+.a.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 @keyframes fade-in {
     to {scale: 1; opacity: 1;}
 }
