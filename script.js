@@ -1,14 +1,15 @@
-const headers = document.querySelectorAll(".project-title") 
+const headers = document.querySelector(".project-title");
 
-const observer = new IntersectionObserver(entries => {
+const options = { 
+    threshold: 0.25,
+};
+
+const observer = new IntersectionObserver(function(entries, observer) {
     entries.forEach(entry => {
-        entry.target.classList.toggle("show", entry.isIntersecting)
+        entry.target.classList.toggle("show")
+        console.log(entry)
     })
-    console.log(entries)
-}, {
-    threshold: 1
-})
+}, options);
 
-headers.forEach(header => {
-    observer.observe(header)
-})
+
+observer.observe(headers);
