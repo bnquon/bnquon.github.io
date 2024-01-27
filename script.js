@@ -6,7 +6,7 @@ const options = {
 
 const observer = new IntersectionObserver(function(entries, observer) {
     entries.forEach(entry => {
-        entry.target.classList.toggle("show")
+        entry.target.classList.toggle("show", entry.isIntersecting)
         console.log(entry)
     })
 }, options);
