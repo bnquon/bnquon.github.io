@@ -1,4 +1,4 @@
-const headers = document.querySelectorAll(".a") 
+const headers = document.querySelectorAll(".project-title") 
 
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -6,7 +6,7 @@ const observer = new IntersectionObserver(entries => {
     })
     console.log(entries)
 }, {
-    threshold: 0.25,
+    threshold: 1
 })
 
 headers.forEach(header => {

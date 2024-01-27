@@ -159,14 +159,12 @@ body {
     position: relative;
 }
 
-.a {
-    transform: translateX(100vw);
+.project-container .project-title {
     opacity: 0;
-    transition: 400ms;
+    transition: 750ms;
 }
 
-.a.show {
-    transform: translateX(0);
+.project-container .project-title.show {
     opacity: 1;
 }
 
