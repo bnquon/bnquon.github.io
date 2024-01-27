@@ -25,7 +25,7 @@ body {
     /* Make taskbar overlap everything */
     z-index: 1;
 
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 
 .taskbar .links {
@@ -248,97 +248,62 @@ body {
     transform: scale(1.1);
 }
 
-/* .big-container {
-    position: relative;
-    border: 1px solid black;
-    max-width: 100vw;
-
-  }
-
-.big-container .wip {
-    border: 1px solid blue;
-    text-align: center;
-}
-
-.circle-container {
+.page3 {
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 25px;
+    background-color: beige;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
-  
-.circle {
-    background-color: lightgray;
-    border-radius: 20%;
-    width: 250px;
-    height: 250px; 
-    /* width and height can be anything, as long as they're equal */
-/* } */ 
 
 .container {
     border-top: 1px solid lightgray;
     text-align: center;
 }
 
-.container .wip {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-bottom: -40px;
-}
-
-.container .tooltip {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-}
-
-@keyframes slide-down {
-    from {transform: translateY(-60%);}
-    to {transform: translateY(0%);}
-}
-
-@keyframes showBorder {
-    from {border: 0;}
-    to {border: 1px solid lightgray;}
-}
-
 .card-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    position: relative;
-    max-width: 80vw;
-    left: 10vw;
-    height: 15vh;
+    border: 1px solid black;
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
 }
 
 .card-container .card {
-    width: 17vw;
-    height: 20vh;
-    margin: 10px;
-}
-
-.card-container .face {
+    width: 100%;
+    height: 100%;
     position: relative;
-    height: auto;
-    text-align: center;
-    border: 1px solid lightgray;
-    background-color: lightgray;
-    z-index: 1;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
 }
 
-.card .content {
-    display: none;
-    position: relative;
-    height: auto;
-    max-width: 100%;
+.card-container:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
 }
 
-.card .face:hover + .content{
-    display: block;
-    animation: 2s slide-down, 1.5s appear, 4s showBorder;
-    animation-fill-mode: forwards;
+.face, .content {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+} 
+
+.face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background-color: #3a3a3a;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
 }
 
 .footer-container {
@@ -348,7 +313,6 @@ body {
     bottom: 0vh;  
     min-height: 5vh;
     width: 100%;
-    margin-top: 150px;
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
