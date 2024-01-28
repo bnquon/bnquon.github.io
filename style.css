@@ -354,13 +354,14 @@ body {
 }
 
 .content {
-    background-color: #3a3a3a;
+    background-color: #D3D3D3;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    padding: 1rem;
 }
 
 .footer-container {
