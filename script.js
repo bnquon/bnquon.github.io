@@ -1,4 +1,4 @@
-const headers = document.querySelector(".project-title");
+const headers = document.querySelector(".section-title");
 
 const options = { 
     threshold: 0.25,
