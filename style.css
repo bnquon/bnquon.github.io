@@ -13,6 +13,23 @@ body {
     position: relative;
 }
 
+.scroll-bar {
+    height: 0.5%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: red;
+    width: 100%;
+    scale: 0 1;
+    transform-origin: left;
+    animation: scroll-progress linear;
+    animation-timeline: scroll();
+}
+
+@keyframes scroll-progress {
+    to {scale: 1 1;}
+}
+
 .taskbar {
     list-style-type: none;
     /* width: 100vw; */
