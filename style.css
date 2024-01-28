@@ -271,7 +271,10 @@ body {
 }
 
 .page3 .section-title {
+    padding-top: 1%;
+    border: 1px solid red;
     display: flex;
+    flex-direction: column;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -282,6 +285,12 @@ body {
     opacity: 0;
     transition: 750ms;
     transform: translateX(-25vw);
+    line-height: 0.2;
+}
+
+.page3 .section-title p {
+    margin-top: 0;
+    font-size: 15px;
 }
 
 .page3 .section-title.show {
