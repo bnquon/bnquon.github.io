@@ -74,6 +74,11 @@ body {
     to {margin-left: 25vw;}
 }
 
+.page1 {
+    position: sticky;
+    top: 0;
+}
+
 .intro-container {
     display: flex;
     flex-direction: row;
@@ -126,8 +131,9 @@ body {
 }
 
 .project-container {
-    border: 1px solid red;
-    position: relative;
+    position: sticky;
+    top: 0;
+    background-color: #71797E;
     margin-top: 50vh;
     margin-bottom: 50px;
     padding: 0;
@@ -148,7 +154,6 @@ body {
     /* background-color: lightgray; */
     display: flex;
     align-items: center;
-    border-top: 1px solid lightgray;
     position: relative;
     font-size: 22px;
     height: auto;
@@ -166,6 +171,7 @@ body {
 }
 
 .project-container .section-title {
+    color: white;
     opacity: 0;
     transition: 750ms;
     transform: translateX(25vw);
@@ -184,6 +190,7 @@ body {
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 40%);
+    height: 76vh;
     margin-top: 15px;
     justify-content: center;
     row-gap: 20px;
@@ -222,7 +229,6 @@ body {
 .hackathon .hackathon-picture,
 .casino-sim .casino-picture, 
 .hangman .hangman-picture {
-    border: 1px solid black;
     width: 550px;
     height: 350px;
     height: 100%;
@@ -255,6 +261,8 @@ body {
 }
 
 .page3 {
+    position: sticky;
+    top: 0;
     display: flex;
     background-color: white;
     height: 100vh;
@@ -263,7 +271,6 @@ body {
 }
 
 .page3 .section-title {
-    border: 1px solid red;
     display: flex;
     position: relative;
     justify-content: center;
@@ -275,7 +282,6 @@ body {
     opacity: 0;
     transition: 750ms;
     transform: translateX(-25vw);
-    margin-top: -2.5%;
 }
 
 .page3 .section-title.show {
