@@ -263,6 +263,14 @@ body {
     min-width: 100%;
     top: 100;
     height: 10vh;
+    opacity: 0;
+    transition: 750ms;
+    transform: translateX(-25vw);
+}
+
+.page3 .section-title.show {
+    transform: translateX(0vw);
+    opacity: 1;
 }
 
 .card-container {
