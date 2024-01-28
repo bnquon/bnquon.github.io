@@ -150,31 +150,29 @@ body {
     padding-top: 6.5vh;
 } */
 
-.project-container .project-header {
-    /* background-color: lightgray; */
-    display: flex;
-    align-items: center;
-    position: relative;
-    font-size: 22px;
-    height: auto;
-    justify-content: center;
-    padding: 0;
-    margin-bottom: -2%;
-}
-
-.project-container .tooltip {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    position: relative;
-    margin-bottom: 1%;
-}
-
 .project-container .section-title {
     color: white;
+    padding-top: 1%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    top: 100;
+    height: 10vh;
+    font-size: 22px;
     opacity: 0;
     transition: 750ms;
     transform: translateX(25vw);
+    line-height: 0.2;
+    margin-bottom: 2%;
+}
+
+.project-container .section-title p {
+    margin-top: 0;
+    font-size: 15px;
 }
 
 .project-container .section-title.show {
