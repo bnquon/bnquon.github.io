@@ -13,3 +13,13 @@ const observer = new IntersectionObserver(function(entries, observer) {
 
 
 observer.observe(headers);
+
+document.addEventListener('DOMContentLoaded', function () {
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+        card.addEventListener("click", function () {
+            card.classList.toggle('is-flipped');
+        });
+    });
+});
