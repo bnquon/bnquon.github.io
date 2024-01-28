@@ -159,13 +159,13 @@ body {
     position: relative;
 }
 
-.project-container .project-title {
+.project-container .section-title {
     opacity: 0;
     transition: 750ms;
     transform: translateX(25vw);
 }
 
-.project-container .project-title.show {
+.project-container .section-title.show {
     transform: translateX(0vw);
     opacity: 1;
 }
