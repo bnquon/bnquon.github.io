@@ -133,7 +133,7 @@ body {
 .project-container {
     position: sticky;
     top: 0;
-    background-color: #71797E;
+    background-color: #353A34;
     margin-top: 50vh;
     margin-bottom: 50px;
     padding: 0;
@@ -153,7 +153,6 @@ body {
 .project-container .section-title {
     color: white;
     padding-top: 1%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -270,7 +269,6 @@ body {
 
 .page3 .section-title {
     padding-top: 1%;
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -356,6 +354,9 @@ body {
 } 
 
 .face {
+    font-size: 20px;
+    text-align: center;
+    padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
