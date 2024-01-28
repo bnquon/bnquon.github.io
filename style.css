@@ -126,18 +126,23 @@ body {
 }
 
 .project-container {
+    border: 1px solid red;
     position: relative;
     margin-top: 50vh;
     margin-bottom: 50px;
     padding: 0;
     width: 100vw;
     max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
     /* left: 5vw; */
 }
 
-#project-section {
+/* #project-section {
     padding-top: 6.5vh;
-}
+} */
 
 .project-container .project-header {
     /* background-color: lightgray; */
@@ -157,6 +162,7 @@ body {
     flex-direction: column;
     text-align: center;
     position: relative;
+    margin-bottom: 1%;
 }
 
 .project-container .section-title {
