@@ -421,9 +421,10 @@ body {
     margin-left: 12.5vw;
     width: 30vw;
     max-width: 100%;
-    height: fit-content;
+    height: 70vh;
     padding-bottom: 1%;
     justify-content: space-evenly;
+    overflow-y: auto;
 }
 
 .page4 .contact-container .contact-form {
