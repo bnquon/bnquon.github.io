@@ -18,7 +18,7 @@ body {
     position: fixed;
     top: 0;
     z-index: 2;
-    background-color: red;
+    background-color: #b0c4d9;
     width: 100%;
     scale: 0 1;
     transform-origin: left;
@@ -406,6 +406,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-size: 22px;
+    color: white;
 }
 
 .page4 .contact-container {
@@ -495,6 +496,23 @@ textarea:focus {
     box-shadow: 4px 4px 4px #6488EA;
 }
 
+.page4 .funny-picture {
+    position: absolute;
+    width: 400px;
+    max-width: 100%;
+    height: 300px;
+    max-height: 100%;
+    left: 55%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page4 .funny-picture img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .page4 .extra-container {
     background-color: white;
     position: relative;
@@ -503,6 +521,7 @@ textarea:focus {
     width: 10vw;
     max-width: 100%;
     height: fit-content;
+    max-height: 90vh;
     top: 50%;
     margin-left: 20%;
     border-radius: 25px;
