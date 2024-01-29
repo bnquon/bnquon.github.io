@@ -444,7 +444,7 @@ body {
 .page4 .contact-container .contact-title hr {
     margin-top: -10%;
     width: 75%;
-    border: 3px solid #648EEA;
+    border: 3px solid #396afc;
     border-radius: 10px;
 }
 
@@ -493,9 +493,9 @@ textarea:focus {
 
 .page4 .button:hover {
     border: 2px solid black; 
-    background-color: #6488EA;
+    background-color: #396afc;
     color: white;
-    box-shadow: 4px 4px 4px #6488EA;
+    box-shadow: 4px 4px 4px #396afc;
 }
 
 .page4 .link-container {
