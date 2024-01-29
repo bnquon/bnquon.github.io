@@ -496,55 +496,23 @@ textarea:focus {
     box-shadow: 4px 4px 4px #6488EA;
 }
 
-.page4 .funny-picture {
-    position: absolute;
-    width: 400px;
-    max-width: 100%;
-    height: 300px;
-    max-height: 100%;
-    left: 55%;
+.page4 .link-container {
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 80px;
     top: 50%;
+    left: 20%;
     transform: translateY(-50%);
 }
 
-.page4 .funny-picture img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.page4 .extra-container {
-    background-color: white;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 10vw;
-    max-width: 100%;
-    height: fit-content;
-    max-height: 90vh;
-    top: 50%;
-    margin-left: 20%;
-    border-radius: 25px;
-    padding-bottom: 1%;
-}
-
-.page4 .extra-container .link-container .link-title{
+.page4 .link-container h3 {
     font-size: 25px;
-    font-weight: 500;
-    text-align: center;
-}
-
-.page4 .extra-container .link-container .image-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.page4 .extra-container .link-container .image-container img{
-    width: 60px;
-    max-width: 100%;
-    height: 60px;
-    max-height: 100%;
 }
 
 .page4 .ending-text {
