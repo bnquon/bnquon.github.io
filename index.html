@@ -163,40 +163,24 @@
         </div>
     </div>
     
-    <footer>
-        <div class="footer-container" id="contacts">
-            <div class="email-container">
-                <h3>
-                    Email Me: <br /> 
-                    bnquon@gmail.com
-                </h3>
+    <div class="page4" id="contacts">
+        <div class="contact-container">
+            <div class="contact-title">
+                <h2>Get in Touch</h2>
+                <hr>
             </div>
-
-            <div class="socials-container">
-                <h3>
-                    My Links: <br /> 
-                    <div class="icons">
-                        <a href="https://github.com/bnquon" target="_blank"><img src="images/github.png" height="33" width="33"></a>
-                        <a href="#"><img src="images/linkedin-logo.png" height="33" width="33"></a>
-                    </div>
-                </h3>
-            </div>
-
-            <div class="gif">
-                <div class="speech">
-                    <h5>Gengar</h5>
-                    <img src="images/speechbub.png" height="60" width="75">
-                </div>
-                <img src="images/gengar.gif" height="100" width="100" id="gengar-gif">
-            </div>
-
-            <div class="copyright-container">
-                <h3>
-                    &copy; Brandon Quon
-                </h3>
-            </div>
+            <form action="" class="contact-form">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Brandon Quon" required>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" placeholder="someone@example.com" required>
+                <label for="message">Send Your Message</label>
+                <textarea name="message" id="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+                <button type="submit" class="button">Submit</button>
+            </form>
         </div>
-    </footer>
+
+    </div>
 
     <script src="script.js"></script>
 
