@@ -150,7 +150,7 @@ body {
 .project-container {
     position: sticky;
     top: 0;
-    background-color: #6488EA;
+    background: linear-gradient(to right, #396afc, #2948ff);
     margin-top: 50vh;
     margin-bottom: 50px;
     padding: 0;
@@ -394,7 +394,7 @@ body {
 }
 
 .page4 {
-    background-color: #6488EA;
+    background: linear-gradient(to right, #396afc, #2948ff);
     position: sticky;
     top: 0;
     display: flex;
@@ -421,6 +421,7 @@ body {
     margin-left: 12.5vw;
     width: 30vw;
     max-width: 100%;
+    min-height: 60vh;
     height: 70vh;
     padding-bottom: 1%;
     justify-content: space-evenly;
@@ -498,22 +499,39 @@ textarea:focus {
 }
 
 .page4 .link-container {
-    background-color: white;
-    border-radius: 25px;
     position: relative;
     display: flex;
+    flex-direction: column;
     width: 100%;
     align-items: center;
-    justify-content: space-evenly;
-    width: 500px;
-    height: 80px;
+    justify-content: center;
+    width: 30vw;
+    max-width: 100%;
+    max-height: 50vh;
+    min-height: 20vh;
     top: 50%;
-    left: 20%;
+    left: 15%;
     transform: translateY(-50%);
 }
 
-.page4 .link-container h3 {
-    font-size: 25px;
+.page4 .link-container img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.page4 .link-container .meme {
+    object-fit: contain;
+}
+
+.page4 .link-container .links {
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 5%;
 }
 
 .page4 .ending-text {
