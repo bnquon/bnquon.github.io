@@ -431,7 +431,6 @@ body {
     flex-direction: column;
     position: relative;
     top: 10%;
-    border: 1px solid red;
     width: 90%;
     height: 80%;
     max-height: 80%;
@@ -439,7 +438,7 @@ body {
 
 .page4 .contact-container .contact-title {
     position: absolute;
-    top: 0;
+    top: -4%;
     font-size: 30px;
 }
 
