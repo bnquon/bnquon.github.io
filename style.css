@@ -429,11 +429,14 @@ body {
 .page4 .contact-container .contact-form {
     display: flex;
     flex-direction: column;
+    position: relative;
+    top: 10%;
+    border: 1px solid red;
     width: 90%;
 }
 
 .page4 .contact-container .contact-title {
-    position: relative;
+    position: absolute;
     top: 0;
     font-size: 30px;
 }
