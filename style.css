@@ -424,14 +424,12 @@ body {
     height: 65vh;
     padding-bottom: 1%;
     justify-content: space-evenly;
-    
 }
 
 .page4 .contact-container .contact-form {
     display: flex;
     flex-direction: column;
     width: 90%;
-    overflow-y: auto;
 }
 
 .page4 .contact-container .contact-title {
