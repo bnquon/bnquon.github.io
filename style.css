@@ -209,7 +209,6 @@ body {
     justify-content: center;
     row-gap: 20px;
     column-gap: 25px;
-    border: 2px solid black;
 }
 
 .example-container img {
