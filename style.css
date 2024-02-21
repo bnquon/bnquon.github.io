@@ -183,7 +183,7 @@ body {
     transition: 750ms;
     transform: translateX(25vw);
     line-height: 0.2;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .project-container .section-title p {
@@ -203,12 +203,13 @@ body {
 .project-container .example-container {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(2, 40%);
-    height: 76vh;
+    grid-template-columns: repeat(2, 44%);
+    grid-template-rows: repeat(2, 38vh);
     margin-top: 15px;
     justify-content: center;
     row-gap: 20px;
     column-gap: 25px;
+    border: 2px solid black;
 }
 
 .example-container img {
@@ -219,31 +220,32 @@ body {
 .project-container .word-game,
 .project-container .casino-sim,
 .project-container .hackathon,
-.project-container .hangman {
+.project-container .fitfolio {
     display: flex;
     position: relative;
-    scale: .8; opacity: 0;
+    scale: .8;
+    opacity: 0;
     animation: fade-in linear forwards;
     animation-timeline: view();
     animation-range: cover;
     animation-range-end: 350px;
 }
 
-.project-container .word-game,
-.project-container .hackathon {
+.project-container .casino-sim,
+.project-container .fitfolio {
     flex-direction: row-reverse;
 }
 
-.project-container .casino-sim,
-.project-container .hangman {
+.project-container .word-game,
+.project-container .hackathon {
     flex-direction: row;
 }
 
 .word-game .word-picture,
 .hackathon .hackathon-picture,
-.casino-sim .casino-picture, 
-.hangman .hangman-picture {
-    width: 550px;
+.casino-sim .casino-picture,
+.fitfolio .fitfolio-picture {
+    width: 650px;
     height: 350px;
     height: 100%;
 }
@@ -251,7 +253,7 @@ body {
 .word-game .word-info,
 .hackathon .hackathon-info,
 .casino-sim .casino-info,
-.hangman .hangman-info {
+.fitfolio .fitfolio-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,6 +265,7 @@ body {
     margin: 0;
     padding: 0 15px;
 }
+
 
 .example-container img {
     transition-duration: 0.5s; 
